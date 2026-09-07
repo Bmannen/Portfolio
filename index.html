@@ -11,132 +11,187 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <div class="port-root">
 
-    <!-- HERO -->
-    <div class="port-hero">
-      <h1 class="port-name">Elias <em>Bergman</em></h1>
-      <p class="port-tagline">UX designer with a background in HCI — researching, prototyping, and designing for real human contexts.</p>
-      <div class="port-pills">
-        <span class="port-pill">User research</span>
-        <span class="port-pill">Interaction design</span>
-        <span class="port-pill">Prototyping</span>
-        <span class="port-pill">Inclusive design</span>
-        <span class="port-pill">Figma</span>
-        <span class="port-pill">Arduino</span>
+  <!-- NAV DOTS -->
+  <nav class="side-nav" aria-label="Section navigation">
+    <a href="#projects" class="nav-dot active" aria-label="Projects"></a>
+    <a href="#about" class="nav-dot" aria-label="About"></a>
+    <a href="#contact" class="nav-dot" aria-label="Contact"></a>
+  </nav>
+
+  <!-- ===================== SECTION 1: PROJECTS ===================== -->
+  <section id="projects" class="panel">
+    <div class="panel-inner">
+
+      <div class="panel-header">
+        <div>
+          <h1 class="port-name">Elias <em>Bergman</em></h1>
+          <p class="port-tagline">UX designer with a background in HCI — researching, prototyping, and designing for real human contexts.</p>
+        </div>
+        <p class="section-label">Selected work</p>
+      </div>
+
+      <div class="projects-grid">
+
+        <div class="project-card">
+          <div class="project-img">
+            <!-- Replace with: <img src="your-image.jpg" alt="Description" /> -->
+            <div class="img-placeholder">
+              <i class="ti ti-photo" aria-hidden="true"></i>
+              <span>Add image</span>
+            </div>
+          </div>
+          <div class="project-body">
+            <div class="project-top">
+              <p class="project-number">01</p>
+              <h2 class="project-title">Inclusive bridge redesign</h2>
+              <p class="project-desc">Reimagined a pedestrian bridge in Umeå through an inclusive design lens — addressing accessibility gaps for diverse mobility needs through research, observation, and collaborative sketching.</p>
+            </div>
+            <div class="project-tags">
+              <span class="project-tag">Inclusive design</span>
+              <span class="project-tag">Urban space</span>
+              <span class="project-tag">Group project</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-img">
+            <!-- Replace with: <img src="your-image.jpg" alt="Description" /> -->
+            <div class="img-placeholder">
+              <i class="ti ti-photo" aria-hidden="true"></i>
+              <span>Add image</span>
+            </div>
+          </div>
+          <div class="project-body">
+            <div class="project-top">
+              <p class="project-number">02</p>
+              <h2 class="project-title">Car infotainment redesign</h2>
+              <p class="project-desc">Redesigned an in-car infotainment interface in Figma with a focus on reducing driver eye fixation time — improving safety through layout, hierarchy, and interaction flow.</p>
+            </div>
+            <div class="project-tags">
+              <span class="project-tag">Figma</span>
+              <span class="project-tag">Automotive UX</span>
+              <span class="project-tag">Safety</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-img">
+            <!-- Replace with: <img src="your-image.jpg" alt="Description" /> -->
+            <div class="img-placeholder">
+              <i class="ti ti-photo" aria-hidden="true"></i>
+              <span>Add image</span>
+            </div>
+          </div>
+          <div class="project-body">
+            <div class="project-top">
+              <p class="project-number">03</p>
+              <h2 class="project-title">Campfire sensor prototype</h2>
+              <p class="project-desc">Built a physical-digital prototype using Arduino and environmental sensors to detect when a campfire is fading — exploring calm technology and contextual alerts in an outdoor setting.</p>
+            </div>
+            <div class="project-tags">
+              <span class="project-tag">Arduino</span>
+              <span class="project-tag">Physical prototype</span>
+              <span class="project-tag">Calm tech</span>
+            </div>
+          </div>
+        </div>
+
       </div>
     </div>
+  </section>
 
-    <!-- PROJECTS -->
-    <p class="section-label">Selected work</p>
+  <!-- ===================== SECTION 2: ABOUT ===================== -->
+  <section id="about" class="panel panel--off-white">
+    <div class="panel-inner panel-inner--about">
 
-    <div class="projects-grid">
-
-      <div class="project-card">
-        <div class="project-img">
-          <!-- Replace the placeholder div below with: <img src="your-image.jpg" alt="Description" /> -->
-          <div class="img-placeholder">
-            <i class="ti ti-photo" aria-hidden="true"></i>
-            <span>Add image</span>
-          </div>
-        </div>
-        <div class="project-body">
-          <div class="project-top">
-            <p class="project-number">01</p>
-            <h2 class="project-title">Inclusive bridge redesign</h2>
-            <p class="project-desc">Reimagined a pedestrian bridge in Umeå through an inclusive design lens — addressing accessibility gaps for diverse mobility needs through research, observation, and collaborative sketching.</p>
-          </div>
-          <div class="project-tags">
-            <span class="project-tag">Inclusive design</span>
-            <span class="project-tag">Urban space</span>
-            <span class="project-tag">Group project</span>
-          </div>
-        </div>
-      </div>
-
-      <div class="project-card">
-        <div class="project-img">
-          <!-- Replace the placeholder div below with: <img src="your-image.jpg" alt="Description" /> -->
-          <div class="img-placeholder">
-            <i class="ti ti-photo" aria-hidden="true"></i>
-            <span>Add image</span>
-          </div>
-        </div>
-        <div class="project-body">
-          <div class="project-top">
-            <p class="project-number">02</p>
-            <h2 class="project-title">Car infotainment redesign</h2>
-            <p class="project-desc">Redesigned an in-car infotainment interface in Figma with a focus on reducing driver eye fixation time — improving safety through layout, hierarchy, and interaction flow.</p>
-          </div>
-          <div class="project-tags">
-            <span class="project-tag">Figma</span>
-            <span class="project-tag">Automotive UX</span>
-            <span class="project-tag">Safety</span>
-          </div>
-        </div>
-      </div>
-
-      <div class="project-card">
-        <div class="project-img">
-          <!-- Replace the placeholder div below with: <img src="your-image.jpg" alt="Description" /> -->
-          <div class="img-placeholder">
-            <i class="ti ti-photo" aria-hidden="true"></i>
-            <span>Add image</span>
-          </div>
-        </div>
-        <div class="project-body">
-          <div class="project-top">
-            <p class="project-number">03</p>
-            <h2 class="project-title">Campfire sensor prototype</h2>
-            <p class="project-desc">Built a physical-digital prototype using Arduino and environmental sensors to detect when a campfire is fading — exploring calm technology and contextual alerts in an outdoor setting.</p>
-          </div>
-          <div class="project-tags">
-            <span class="project-tag">Arduino</span>
-            <span class="project-tag">Physical prototype</span>
-            <span class="project-tag">Calm tech</span>
-          </div>
-        </div>
-      </div>
-
-    </div>
-
-    <!-- ABOUT -->
-    <div class="port-about">
       <div class="about-left">
-        <h2 class="about-title">About</h2>
-        <p class="about-text">I'm a UX designer based in Sweden with a background in Human-Computer Interaction. I work across the full design process — from user research and ideation to prototyping and testing — with a focus on designing for real human contexts, whether that's urban infrastructure, vehicles, or the outdoors.</p>
-      </div>
-      <div class="about-right">
-        <div class="skills-group">
-          <p class="skills-group-label">Methods</p>
-          <p class="skills-list">Usability testing, user interviews, prototyping, sketching, interaction design</p>
-        </div>
-        <div class="skills-group">
-          <p class="skills-group-label">Tools</p>
-          <p class="skills-list">Figma, Arduino, Processing, pen & paper</p>
-        </div>
-        <div class="skills-group">
-          <p class="skills-group-label">Education</p>
-          <p class="skills-list">Human-Computer Interaction (HCI)</p>
-        </div>
-      </div>
-    </div>
+        <p class="section-label">About me</p>
+        <h2 class="about-title">Designing for the<br><em>way people actually live</em></h2>
+        <p class="about-text">I'm a UX designer based in Sweden, currently completing a Master's in Human-Computer Interaction at Umeå University. I work across the full design process — from user research and ideation to prototyping and testing — with a focus on designing for real human contexts, whether that's urban infrastructure, vehicles, or the outdoors.</p>
+        <p class="about-text">I've gained industry exposure through production work at Volvo Cars, where I got to see how design decisions play out at scale.</p>
 
-    <!-- CONTACT -->
-    <div class="port-contact">
-      <span class="contact-left">Let's work together</span>
-      <div class="contact-links">
-        <!-- Replace # with your actual email: href="mailto:you@email.com" -->
+        <div class="skills-row">
+          <div class="skills-group">
+            <p class="skills-group-label">Methods</p>
+            <p class="skills-list">Usability testing, user interviews, prototyping, sketching, interaction design</p>
+          </div>
+          <div class="skills-group">
+            <p class="skills-group-label">Tools</p>
+            <p class="skills-list">Figma, Arduino, Processing, pen & paper</p>
+          </div>
+          <div class="skills-group">
+            <p class="skills-group-label">Education</p>
+            <p class="skills-list">MSc Human-Computer Interaction, Umeå University<br>BSc Cognitive Science, Umeå University</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="about-right">
+        <!-- QUOTE — replace with a real one from a colleague -->
+        <blockquote class="quote-block">
+          <p class="quote-text">"Elias has a rare ability to hold the user's perspective while still pushing the design forward. He asks the questions others overlook."</p>
+          <footer class="quote-attribution">
+            <!-- Replace with real name and role -->
+            <span class="quote-name">— Colleague name</span>
+            <span class="quote-role">Role, Organisation</span>
+          </footer>
+        </blockquote>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ===================== SECTION 3: CONTACT ===================== -->
+  <section id="contact" class="panel panel--dark">
+    <div class="panel-inner panel-inner--contact">
+
+      <div class="contact-top">
+        <p class="section-label section-label--light">Get in touch</p>
+        <h2 class="contact-title">Let's work<br><em>together</em></h2>
+        <p class="contact-sub">Open to UX roles, internships, and collaborations. Based in Sweden.</p>
+      </div>
+
+      <div class="contact-actions">
+        <!-- Replace # with mailto:you@email.com -->
         <a class="contact-link" href="#">
-          <i class="ti ti-mail" aria-hidden="true"></i> Email
+          <i class="ti ti-mail"></i> Email me
         </a>
         <!-- Replace # with your LinkedIn URL -->
         <a class="contact-link" href="#" target="_blank" rel="noopener">
-          <i class="ti ti-brand-linkedin" aria-hidden="true"></i> LinkedIn
+          <i class="ti ti-brand-linkedin"></i> LinkedIn
+        </a>
+        <!-- Replace # with path to your CV file, e.g. href="cv-elias-bergman.pdf" -->
+        <a class="contact-link contact-link--primary" href="#" download>
+          <i class="ti ti-download"></i> Download CV
         </a>
       </div>
-    </div>
 
-  </div>
+      <p class="contact-footer">Elias Bergman &mdash; UX Designer &mdash; Sweden</p>
+
+    </div>
+  </section>
+
+  <script>
+    // Update active nav dot on scroll
+    const panels = document.querySelectorAll('.panel');
+    const dots = document.querySelectorAll('.nav-dot');
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          dots.forEach(d => d.classList.remove('active'));
+          const id = entry.target.id;
+          const dot = document.querySelector(`.nav-dot[href="#${id}"]`);
+          if (dot) dot.classList.add('active');
+        }
+      });
+    }, { threshold: 0.5 });
+
+    panels.forEach(p => observer.observe(p));
+  </script>
+
 </body>
 </html>
