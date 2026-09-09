@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Elias Bergman — UX Designer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <aside class="sidebar">
+    <div class="sidebar-top">
+      <span class="sidebar-name">Elias Bergman</span>
+      <span class="sidebar-role">UX Designer</span>
+    </div>
+    <nav class="sidebar-nav">
+      <a href="#projects" class="sidebar-link active" data-section="projects">
+        <span class="sidebar-link-line"></span>Work
+      </a>
+      <a href="#about" class="sidebar-link" data-section="about">
+        <span class="sidebar-link-line"></span>About
+      </a>
+      <a href="#contact" class="sidebar-link" data-section="contact">
+        <span class="sidebar-link-line"></span>Contact
+      </a>
+    </nav>
+    <div class="sidebar-bottom">
+      <a href="#" class="sidebar-icon" aria-label="LinkedIn" target="_blank" rel="noopener"><i class="ti ti-brand-linkedin"></i></a>
+      <a href="#" class="sidebar-icon" aria-label="Email"><i class="ti ti-mail"></i></a>
+    </div>
+  </aside>
+
+  <main class="main">
+
+    <!-- SECTION 1: PROJECTS -->
+    <section id="projects" class="panel">
+      <div class="panel-inner panel-inner--projects">
+
+        <div class="projects-header">
+          <h1 class="port-name">Selected <em>work</em></h1>
+          <p class="section-label">2023 – 2025</p>
+        </div>
+
+        <div class="projects-columns" id="projectsGrid">
+
+          <!-- PROJECT 1: BRIDGE -->
+          <div class="project-col" onmouseenter="highlight(this)" onmouseleave="resetHighlight()">
+            <div class="project-col-img">
+              <!-- Add your bridge project image here: <img src="images/bridge.jpg" alt="Inclusive bridge redesign"> -->
+              <div class="col-img-placeholder">
+                <i class="ti ti-photo"></i>
+                <span>Add bridge project image</span>
+              </div>
+            </div>
+            <div class="project-col-body">
+              <p class="project-number">01</p>
+              <h2 class="project-title">Inclusive bridge redesign</h2>
+              <p class="project-desc">Redesigned a pedestrian bridge in Umeå applying inclusive design principles. Field observation, user research, and iterative sketching addressed accessibility barriers for people with varying mobility needs.</p>
+              <div class="project-tags">
+                <span class="project-tag">Inclusive design</span>
+                <span class="project-tag">Field research</span>
+                <span class="project-tag">Sketching</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- PROJECT 2: INFOTAINMENT -->
+          <div class="project-col" onmouseenter="highlight(this)" onmouseleave="resetHighlight()">
+            <div class="project-col-img">
+              <img src="images/infotainment.jpg" alt="Final Figma design of car infotainment system — radio view" />
+            </div>
+            <div class="project-col-body">
+              <p class="project-number">02</p>
+              <h2 class="project-title">Car infotainment redesign</h2>
+              <p class="project-desc">Redesigned a car infotainment UI in Figma to cut driver eye fixation time. Full UX process: affinity diagrams, paper prototypes, 7-task usability tests, and a hi-fi prototype covering radio, Bluetooth, and navigation.</p>
+              <div class="project-tags">
+                <span class="project-tag">Figma</span>
+                <span class="project-tag">Usability testing</span>
+                <span class="project-tag">Cognitive design</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- PROJECT 3: CAMPFIRE -->
+          <div class="project-col" onmouseenter="highlight(this)" onmouseleave="resetHighlight()">
+            <div class="project-col-img">
+              <!-- Add your Arduino/campfire device image here: <img src="images/campfire.jpg" alt="Hot Potato campfire device"> -->
+              <div class="col-img-placeholder">
+                <i class="ti ti-photo"></i>
+                <span>Add campfire device image</span>
+              </div>
+            </div>
+            <div class="project-col-body">
+              <p class="project-number">03</p>
+              <h2 class="project-title">Hot Potato — campfire safety</h2>
+              <p class="project-desc">Arduino-based camp safety system detecting dangerous heat, dying flames, CO levels, wind, and nearby obstacles. Portable warning units alert users even when away from camp.</p>
+              <div class="project-tags">
+                <span class="project-tag">Arduino</span>
+                <span class="project-tag">Physical prototype</span>
+                <span class="project-tag">Safety design</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 2: ABOUT -->
+    <section id="about" class="panel panel--off-white">
+      <div class="panel-inner panel-inner--about">
+        <div class="about-left">
+          <p class="section-label">About me</p>
+          <h2 class="about-title">Designing for the<br><em>way people actually live</em></h2>
+          <p class="about-text">I'm a UX designer based in Sweden, currently completing a Master's in Human-Computer Interaction at Umeå University. I work across the full design process — from user research and ideation to prototyping and testing — with a focus on designing for real human contexts.</p>
+          <p class="about-text">I've gained industry exposure through production work at Volvo Cars, where I got to see how design decisions play out at scale.</p>
+          <div class="skills-row">
+            <div class="skills-group">
+              <p class="skills-group-label">Methods</p>
+              <p class="skills-list">Usability testing, user interviews, affinity diagrams, paper prototyping, cognitive walkthroughs, sketching</p>
+            </div>
+            <div class="skills-group">
+              <p class="skills-group-label">Tools</p>
+              <p class="skills-list">Figma, Arduino, Processing, pen & paper</p>
+            </div>
+            <div class="skills-group">
+              <p class="skills-group-label">Education</p>
+              <p class="skills-list">MSc Human-Computer Interaction, Umeå University<br>BSc Cognitive Science, Umeå University</p>
+            </div>
+          </div>
+        </div>
+        <div class="about-right">
+          <blockquote class="quote-block">
+            <p class="quote-text">"Elias has a rare ability to hold the user's perspective while still pushing the design forward. He asks the questions others overlook."</p>
+            <footer class="quote-attribution">
+              <span class="quote-name">— Colleague name</span>
+              <span class="quote-role">Role, Organisation</span>
+            </footer>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 3: CONTACT -->
+    <section id="contact" class="panel panel--dark">
+      <div class="panel-inner panel-inner--contact">
+        <div class="contact-top">
+          <p class="section-label section-label--light">Get in touch</p>
+          <h2 class="contact-title">Let's work<br><em>together</em></h2>
+          <p class="contact-sub">Open to UX roles, internships, and collaborations. Based in Sweden.</p>
+        </div>
+        <div class="contact-actions">
+          <a class="contact-link" href="#"><i class="ti ti-mail"></i> Email me</a>
+          <a class="contact-link" href="#" target="_blank" rel="noopener"><i class="ti ti-brand-linkedin"></i> LinkedIn</a>
+          <a class="contact-link contact-link--primary" href="cv-elias-bergman.pdf" download><i class="ti ti-download"></i> Download CV</a>
+        </div>
+        <p class="contact-footer">Elias Bergman &mdash; UX Designer &mdash; Sweden</p>
+      </div>
+    </section>
+
+  </main>
+
+  <script>
+    const sections = document.querySelectorAll('.panel');
+    const links = document.querySelectorAll('.sidebar-link');
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          links.forEach(l => l.classList.remove('active'));
+          const link = document.querySelector(`.sidebar-link[data-section="${entry.target.id}"]`);
+          if (link) link.classList.add('active');
+          const sidebar = document.querySelector('.sidebar');
+          entry.target.id === 'contact' ? sidebar.classList.add('sidebar--dark') : sidebar.classList.remove('sidebar--dark');
+        }
+      });
+    }, { threshold: 0.5 });
+    sections.forEach(s => observer.observe(s));
+
+    function highlight(el) {
+      document.querySelectorAll('.project-col').forEach(col => col.classList.add('dimmed'));
+      el.classList.remove('dimmed');
+      el.classList.add('focused');
+    }
+    function resetHighlight() {
+      document.querySelectorAll('.project-col').forEach(col => {
+        col.classList.remove('dimmed');
+        col.classList.remove('focused');
+      });
+    }
+  </script>
+
+</body>
+</html>
