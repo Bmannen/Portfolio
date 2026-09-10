@@ -1,236 +1,179 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Elias Bergman — UX Designer</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css" />
-  <link rel="stylesheet" href="style.css" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Elias Bergman — UX portfolio focused on inclusive design, automotive interaction and physical prototyping.">
+  <title>Elias Bergman — UX Portfolio</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <a class="skip-link" href="#main">Skip to content</a>
 
-  <!-- STICKY SIDEBAR -->
-  <aside class="sidebar">
-    <div class="sidebar-top">
-      <span class="sidebar-name">Elias Bergman</span>
-      <span class="sidebar-role">UX Designer</span>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="wordmark" href="#top" aria-label="Elias Bergman home">EB</a>
+      <nav aria-label="Primary navigation">
+        <a href="#work">Work</a>
+        <a href="#approach">Approach</a>
+        <a href="#about">About</a>
+      </nav>
+      <a class="header-contact" href="#contact">Contact</a>
     </div>
-    <nav class="sidebar-nav">
-      <a href="#projects" class="sidebar-link active" data-section="projects">
-        <span class="sidebar-link-line"></span>
-        Work
-      </a>
-      <a href="#about" class="sidebar-link" data-section="about">
-        <span class="sidebar-link-line"></span>
-        About
-      </a>
-      <a href="#contact" class="sidebar-link" data-section="contact">
-        <span class="sidebar-link-line"></span>
-        Contact
-      </a>
-    </nav>
-    <div class="sidebar-bottom">
-      <a href="#" class="sidebar-icon" aria-label="LinkedIn" target="_blank" rel="noopener">
-        <i class="ti ti-brand-linkedin"></i>
-      </a>
-      <a href="#" class="sidebar-icon" aria-label="Email">
-        <i class="ti ti-mail"></i>
-      </a>
-    </div>
-  </aside>
+  </header>
 
-  <!-- MAIN CONTENT -->
-  <main class="main">
+  <main id="main">
+    <section id="top" class="hero section-rule">
+      <div class="hero-index">01 / Portfolio</div>
+      <div class="hero-copy">
+        <p class="eyebrow">Elias Bergman</p>
+        <h1>I design around<br><em>people, context<br>and consequence.</em></h1>
+        <p class="hero-lede">UX work across inclusive environments, automotive interfaces and physical prototyping.</p>
+      </div>
+      <div class="hero-meta">
+        <p>Based in Sweden</p>
+        <p>UX / Interaction / Prototyping</p>
+      </div>
+    </section>
 
-    <!-- ===================== SECTION 1: PROJECTS ===================== -->
-    <section id="projects" class="panel">
-      <div class="panel-inner">
+    <section id="work" class="work section-rule">
+      <div class="section-label">02 / Selected work</div>
 
-        <div class="panel-header">
+      <article class="project project-featured">
+        <div class="project-id">01</div>
+        <div class="project-main">
+          <div class="project-heading">
+            <div>
+              <p class="eyebrow">Automotive · Figma · Interaction</p>
+              <h2>Less attention on the screen.<br>More attention on the road.</h2>
+            </div>
+            <span class="project-year">Project study</span>
+          </div>
+
+          <div class="visual visual-infotainment" role="img" aria-label="Placeholder for the real infotainment Figma visuals">
+            <div class="visual-caption">IMAGE PLACEHOLDER — replace with the final Figma UI / navigation view</div>
+            <div class="screen-mock">
+              <div class="screen-topline"><span>RIX FM</span><span>10:42</span></div>
+              <div class="screen-title">Radio</div>
+              <div class="screen-track">News &amp; Music</div>
+              <div class="screen-control"><span>Previous</span><span class="play">Play</span><span>Next</span></div>
+              <div class="orange-bar"></div>
+            </div>
+          </div>
+
+          <div class="project-grid">
+            <div>
+              <span class="field-label">Challenge</span>
+              <p>Redesign a car infotainment experience with the goal of minimizing driver eye fixations on the display.</p>
+            </div>
+            <div>
+              <span class="field-label">My role</span>
+              <p>Interaction design and Figma prototyping as part of a project team.</p>
+            </div>
+            <div>
+              <span class="field-label">Focus</span>
+              <p>Information hierarchy, navigation and reducing the amount of visual attention required from the driver.</p>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <article class="project">
+        <div class="project-id">02</div>
+        <div class="project-main two-col">
           <div>
-            <h1 class="port-name">Selected <em>work</em></h1>
-            <p class="port-tagline">Researching, prototyping, and designing for real human contexts.</p>
+            <p class="eyebrow">Inclusive design · Umeå · Physical environment</p>
+            <h2>An inclusive bridge,<br>designed for more people.</h2>
+            <p class="project-intro">A group project rebuilding a bridge in Umeå through an inclusive design approach, considering how a physical environment can work for a wider range of people.</p>
+            <div class="project-grid compact">
+              <div><span class="field-label">Context</span><p>Public / shared physical environment</p></div>
+              <div><span class="field-label">Approach</span><p>Inclusive design</p></div>
+            </div>
           </div>
-          <p class="section-label">2023 – 2025</p>
+          <div class="visual visual-placeholder">
+            <span>BRIDGE IMAGE</span>
+            <small>Add your sketch / bridge photos here</small>
+          </div>
         </div>
+      </article>
 
-        <div class="projects-grid">
-
-          <!-- PROJECT 1: BRIDGE -->
-          <div class="project-card">
-            <div class="project-img">
-              <!-- Replace with: <img src="your-image.jpg" alt="Inclusive bridge redesign sketch" /> -->
-              <div class="img-placeholder">
-                <i class="ti ti-photo" aria-hidden="true"></i>
-                <span>Add image</span>
-              </div>
-            </div>
-            <div class="project-body">
-              <div class="project-top">
-                <p class="project-number">01</p>
-                <h2 class="project-title">Inclusive bridge redesign</h2>
-                <p class="project-desc">Redesigned a pedestrian bridge in Umeå applying inclusive design principles. The project involved field observation, user research, and iterative sketching to address accessibility barriers for people with varying mobility needs.</p>
-              </div>
-              <div class="project-tags">
-                <span class="project-tag">Inclusive design</span>
-                <span class="project-tag">Field research</span>
-                <span class="project-tag">Sketching</span>
-                <span class="project-tag">Group project</span>
-              </div>
+      <article class="project">
+        <div class="project-id">03</div>
+        <div class="project-main two-col reverse-mobile">
+          <div class="visual visual-placeholder">
+            <span>ARDUINO / CAMPFIRE IMAGE</span>
+            <small>Add your Arduino setup or prototype photo here</small>
+          </div>
+          <div>
+            <p class="eyebrow">Physical computing · Arduino · Sensors</p>
+            <h2>A prototype that knows<br>when the fire is fading.</h2>
+            <p class="project-intro">A hardware prototyping project using Arduino and sensors to create a mockup for a product that can sense when a campfire is losing its flame and when more firewood is needed.</p>
+            <div class="project-grid compact">
+              <div><span class="field-label">Tools</span><p>Arduino · Sensors · Physical prototyping</p></div>
+              <div><span class="field-label">Focus</span><p>Sensing, feedback and outdoor context</p></div>
             </div>
           </div>
+        </div>
+      </article>
+    </section>
 
-          <!-- PROJECT 2: INFOTAINMENT -->
-          <div class="project-card">
-            <div class="project-img">
-              <!-- Replace with: <img src="your-image.jpg" alt="Infotainment system Figma design" /> -->
-              <div class="img-placeholder">
-                <i class="ti ti-photo" aria-hidden="true"></i>
-                <span>Add image</span>
-              </div>
-            </div>
-            <div class="project-body">
-              <div class="project-top">
-                <p class="project-number">02</p>
-                <h2 class="project-title">Car infotainment redesign</h2>
-                <p class="project-desc">Redesigned the UI of a car infotainment system in Figma to reduce driver cognitive load and eye fixation time. The process included photo journaling, affinity diagrams, paper prototyping, 7-task usability tests, and a final high-fidelity Figma prototype covering radio, Bluetooth, and navigation.</p>
-              </div>
-              <div class="project-tags">
-                <span class="project-tag">Figma</span>
-                <span class="project-tag">Usability testing</span>
-                <span class="project-tag">Cognitive design</span>
-                <span class="project-tag">Automotive UX</span>
-              </div>
-            </div>
-          </div>
-
-          <!-- PROJECT 3: CAMPFIRE -->
-          <div class="project-card">
-            <div class="project-img">
-              <!-- Replace with: <img src="your-image.jpg" alt="Hot Potato campfire prototype" /> -->
-              <div class="img-placeholder">
-                <i class="ti ti-photo" aria-hidden="true"></i>
-                <span>Add image</span>
-              </div>
-            </div>
-            <div class="project-body">
-              <div class="project-top">
-                <p class="project-number">03</p>
-                <h2 class="project-title">Hot Potato — campfire safety device</h2>
-                <p class="project-desc">Designed and built an Arduino-based prototype to help campers maintain fire safety overnight. The device detects dangerous heat spikes, a dying flame, CO levels in tents, wind direction, and nearby obstacles — alerting users even when away from camp via portable warning units.</p>
-              </div>
-              <div class="project-tags">
-                <span class="project-tag">Arduino</span>
-                <span class="project-tag">Physical prototype</span>
-                <span class="project-tag">Calm technology</span>
-                <span class="project-tag">Safety design</span>
-              </div>
-            </div>
-          </div>
-
+    <section id="approach" class="approach section-rule">
+      <div class="section-label">03 / Approach</div>
+      <div class="approach-content">
+        <h2>Start with the situation,<br>not the interface.</h2>
+        <div class="approach-copy">
+          <p>I am interested in design problems where context matters. A bridge is not just a structure. An infotainment system is not just a screen. A campfire product is not just a sensor.</p>
+          <p>Across these projects, I work from the conditions around the interaction: accessibility, attention, physical behaviour and the consequences of getting the experience wrong.</p>
         </div>
       </div>
     </section>
 
-    <!-- ===================== SECTION 2: ABOUT ===================== -->
-    <section id="about" class="panel panel--off-white">
-      <div class="panel-inner panel-inner--about">
+    <section id="about" class="about section-rule">
+      <div class="section-label">04 / About</div>
+      <div class="about-content">
+        <div>
+          <p class="eyebrow">Elias Bergman</p>
+          <h2>UX designer with an interest in systems that meet people where they are.</h2>
+        </div>
+        <div class="about-copy">
+          <p>My work so far spans inclusive design, automotive interaction and physical prototyping. I like projects where research, design and making have to work together rather than living in separate phases.</p>
+          <p>This portfolio is intentionally simple. The projects should do the talking.</p>
+        </div>
+      </div>
+    </section>
 
-        <div class="about-left">
-          <p class="section-label">About me</p>
-          <h2 class="about-title">Designing for the<br><em>way people actually live</em></h2>
-          <p class="about-text">I'm a UX designer based in Sweden, currently completing a Master's in Human-Computer Interaction at Umeå University. I work across the full design process — from user research and ideation to prototyping and testing — with a focus on designing for real human contexts, whether that's urban infrastructure, vehicles, or the outdoors.</p>
-          <p class="about-text">I've gained industry exposure through production work at Volvo Cars, where I got to see how design decisions play out at scale.</p>
-
-          <div class="skills-row">
-            <div class="skills-group">
-              <p class="skills-group-label">Methods</p>
-              <p class="skills-list">Usability testing, user interviews, affinity diagrams, paper prototyping, cognitive walkthroughs, sketching</p>
-            </div>
-            <div class="skills-group">
-              <p class="skills-group-label">Tools</p>
-              <p class="skills-list">Figma, Arduino, Processing, pen & paper</p>
-            </div>
-            <div class="skills-group">
-              <p class="skills-group-label">Education</p>
-              <p class="skills-list">MSc Human-Computer Interaction, Umeå University<br>BSc Cognitive Science, Umeå University</p>
-            </div>
+    <section id="contact" class="contact section-rule">
+      <div class="section-label">05 / Contact</div>
+      <div class="contact-content">
+        <div>
+          <p class="eyebrow">Get in touch</p>
+          <h2>Have a project, role<br>or problem worth exploring?</h2>
+        </div>
+        <div class="contact-details">
+          <p class="contact-note">Add your preferred email and LinkedIn below before publishing.</p>
+          <div class="contact-placeholders">
+            <a href="mailto:YOUR-EMAIL@example.com">YOUR-EMAIL@example.com</a>
+            <a href="#">LinkedIn profile ↗</a>
           </div>
         </div>
-
-        <div class="about-right">
-          <!-- Replace with a real quote from a colleague -->
-          <blockquote class="quote-block">
-            <p class="quote-text">"Elias has a rare ability to hold the user's perspective while still pushing the design forward. He asks the questions others overlook."</p>
-            <footer class="quote-attribution">
-              <span class="quote-name">— Colleague name</span>
-              <span class="quote-role">Role, Organisation</span>
-            </footer>
-          </blockquote>
-        </div>
-
       </div>
     </section>
-
-    <!-- ===================== SECTION 3: CONTACT ===================== -->
-    <section id="contact" class="panel panel--dark">
-      <div class="panel-inner panel-inner--contact">
-
-        <div class="contact-top">
-          <p class="section-label section-label--light">Get in touch</p>
-          <h2 class="contact-title">Let's work<br><em>together</em></h2>
-          <p class="contact-sub">Open to UX roles, internships, and collaborations. Based in Sweden.</p>
-        </div>
-
-        <div class="contact-actions">
-          <!-- Replace # with mailto:you@email.com -->
-          <a class="contact-link" href="#">
-            <i class="ti ti-mail"></i> Email me
-          </a>
-          <!-- Replace # with your LinkedIn URL -->
-          <a class="contact-link" href="#" target="_blank" rel="noopener">
-            <i class="ti ti-brand-linkedin"></i> LinkedIn
-          </a>
-          <!-- Upload cv-elias-bergman.pdf to your repo and update href -->
-          <a class="contact-link contact-link--primary" href="cv-elias-bergman.pdf" download>
-            <i class="ti ti-download"></i> Download CV
-          </a>
-        </div>
-
-        <p class="contact-footer">Elias Bergman &mdash; UX Designer &mdash; Sweden</p>
-
-      </div>
-    </section>
-
   </main>
 
+  <footer class="site-footer">
+    <span>© 2026 Elias Bergman</span>
+    <span>Designed for clarity.</span>
+  </footer>
+
   <script>
-    const sections = document.querySelectorAll('.panel');
-    const links = document.querySelectorAll('.sidebar-link');
-
-    const observer = new IntersectionObserver((entries) => {
-      entries.forEach(entry => {
-        if (entry.isIntersecting) {
-          links.forEach(l => l.classList.remove('active'));
-          const id = entry.target.id;
-          const link = document.querySelector(`.sidebar-link[data-section="${id}"]`);
-          if (link) link.classList.add('active');
-
-          const sidebar = document.querySelector('.sidebar');
-          if (id === 'contact') {
-            sidebar.classList.add('sidebar--dark');
-          } else {
-            sidebar.classList.remove('sidebar--dark');
-          }
-        }
+    document.querySelectorAll('a[href^="#"]').forEach(link => {
+      link.addEventListener('click', event => {
+        const target = document.querySelector(link.getAttribute('href'));
+        if (!target) return;
+        event.preventDefault();
+        target.scrollIntoView({ behavior: 'smooth', block: 'start' });
       });
-    }, { threshold: 0.5 });
-
-    sections.forEach(s => observer.observe(s));
+    });
   </script>
-
 </body>
 </html>
