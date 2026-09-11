@@ -98,7 +98,7 @@ h2 { margin: 0; font-size: clamp(2.7rem, 5vw, 5.8rem); line-height: .95; letter-
   html { scroll-snap-type: y mandatory; }
   .hero-layout, .approach-layout, .about-layout, .contact-layout { grid-template-columns: 1fr; gap: 2rem; }
   .hero-visual { border-left: 0; border-top: 1px solid var(--line); padding-left: 0; padding-top: 2rem; min-height: 19rem; }
-  .field-note { left: 0; }
+  .field-note { left: 0; font-size: 10; }
   .two-col-project, .two-col-project.reverse { grid-template-columns: 1fr; gap: 2rem; }
   .placeholder-visual { min-height: 34svh; }
   .approach-layout, .about-layout, .contact-layout { height: auto; min-height: calc(100svh - 9rem); }
