@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <a class="skip-link" href="#main">Skip to content</a>
+  <a class="skip-link" href="#work">Skip to work</a>
 
   <header class="site-header">
     <div class="header-inner">
@@ -22,105 +22,104 @@
     </div>
   </header>
 
-  <main id="main">
-    <section id="top" class="hero section-rule">
-      <div class="hero-index">01 / Portfolio</div>
-      <div class="hero-copy">
-        <p class="eyebrow">Elias Bergman</p>
-        <h1>I design around<br><em>people, context<br>and consequence.</em></h1>
-        <p class="hero-lede">UX work across inclusive environments, automotive interfaces and physical prototyping.</p>
+  <main id="top" class="page">
+    <section class="hero snap-section" aria-label="Introduction">
+      <div class="hero-topline"><span>01 / Elias Bergman</span><span>UX · Interaction · Prototyping</span></div>
+      <div class="hero-layout">
+        <div class="hero-copy">
+          <p class="eyebrow">Portfolio / 2026</p>
+          <h1>Designing for<br><em>real situations.</em></h1>
+          <p class="hero-lede">Work across inclusive environments, automotive interfaces and physical computing.</p>
+        </div>
+
+        <div class="hero-visual" aria-hidden="true">
+          <div class="field-note">FROM CONTEXT → TO INTERACTION</div>
+          <div class="system-map">
+            <div class="map-line"></div>
+            <span class="map-node node-1"><b>01</b><i>Inclusive design</i></span>
+            <span class="map-node node-2"><b>02</b><i>Automotive UX</i></span>
+            <span class="map-node node-3"><b>03</b><i>Physical prototyping</i></span>
+          </div>
+        </div>
       </div>
-      <div class="hero-meta">
-        <p>Based in Sweden</p>
-        <p>UX / Interaction / Prototyping</p>
-      </div>
+      <div class="hero-footer"><span>Scroll to explore</span><span class="scroll-mark">↓</span></div>
     </section>
 
-    <section id="work" class="work section-rule">
-      <div class="section-label">02 / Selected work</div>
+    <section id="work" class="work" aria-label="Selected work">
+      <div class="section-top"><span>02 / Selected work</span><span>One project at a time</span></div>
 
-      <article class="project project-featured">
-        <div class="project-id">01</div>
-        <div class="project-main">
-          <div class="project-heading">
+      <article class="project project-infotainment snap-section">
+        <div class="project-number">01</div>
+        <div class="project-content">
+          <div class="project-header">
             <div>
               <p class="eyebrow">Automotive · Figma · Interaction</p>
               <h2>Less attention on the screen.<br>More attention on the road.</h2>
             </div>
-            <span class="project-year">Project study</span>
+            <span class="project-tag">Project study</span>
           </div>
 
-          <div class="visual visual-infotainment" role="img" aria-label="Placeholder for the real infotainment Figma visuals">
-            <div class="visual-caption">IMAGE PLACEHOLDER — replace with the final Figma UI / navigation view</div>
-            <div class="screen-mock">
-              <div class="screen-topline"><span>RIX FM</span><span>10:42</span></div>
-              <div class="screen-title">Radio</div>
-              <div class="screen-track">News &amp; Music</div>
-              <div class="screen-control"><span>Previous</span><span class="play">Play</span><span>Next</span></div>
-              <div class="orange-bar"></div>
-            </div>
+          <div class="infotainment-stage">
+            <div class="image-label">FINAL FIGMA SCREEN / PROVIDED IMAGE</div>
+            <img src="images/infotainment.png" alt="Car infotainment interface showing RIX FM and radio controls">
+            <div class="image-detail detail-a">RIX FM</div>
+            <div class="image-detail detail-b">Navigation + media controls</div>
           </div>
 
-          <div class="project-grid">
-            <div>
-              <span class="field-label">Challenge</span>
-              <p>Redesign a car infotainment experience with the goal of minimizing driver eye fixations on the display.</p>
-            </div>
-            <div>
-              <span class="field-label">My role</span>
-              <p>Interaction design and Figma prototyping as part of a project team.</p>
-            </div>
-            <div>
-              <span class="field-label">Focus</span>
-              <p>Information hierarchy, navigation and reducing the amount of visual attention required from the driver.</p>
-            </div>
+          <div class="project-facts">
+            <div><span>Challenge</span><p>Redesign a car infotainment experience with the goal of minimizing driver eye fixations on the display.</p></div>
+            <div><span>My role</span><p>Interaction design and Figma prototyping as part of a project team.</p></div>
+            <div><span>Focus</span><p>Information hierarchy, navigation and reducing the amount of visual attention required from the driver.</p></div>
           </div>
         </div>
       </article>
 
-      <article class="project">
-        <div class="project-id">02</div>
-        <div class="project-main two-col">
-          <div>
+      <article class="project project-bridge snap-section">
+        <div class="project-number">02</div>
+        <div class="project-content two-col-project">
+          <div class="project-text">
             <p class="eyebrow">Inclusive design · Umeå · Physical environment</p>
             <h2>An inclusive bridge,<br>designed for more people.</h2>
             <p class="project-intro">A group project rebuilding a bridge in Umeå through an inclusive design approach, considering how a physical environment can work for a wider range of people.</p>
-            <div class="project-grid compact">
-              <div><span class="field-label">Context</span><p>Public / shared physical environment</p></div>
-              <div><span class="field-label">Approach</span><p>Inclusive design</p></div>
+            <div class="project-facts compact-facts">
+              <div><span>Context</span><p>Public / shared physical environment</p></div>
+              <div><span>Approach</span><p>Inclusive design</p></div>
             </div>
           </div>
-          <div class="visual visual-placeholder">
+          <div class="placeholder-visual">
             <span>BRIDGE IMAGE</span>
             <small>Add your sketch / bridge photos here</small>
           </div>
         </div>
       </article>
 
-      <article class="project">
-        <div class="project-id">03</div>
-        <div class="project-main two-col reverse-mobile">
-          <div class="visual visual-placeholder">
+      <article class="project project-campfire snap-section">
+        <div class="project-number">03</div>
+        <div class="project-content two-col-project reverse">
+          <div class="placeholder-visual">
             <span>ARDUINO / CAMPFIRE IMAGE</span>
             <small>Add your Arduino setup or prototype photo here</small>
           </div>
-          <div>
+          <div class="project-text">
             <p class="eyebrow">Physical computing · Arduino · Sensors</p>
             <h2>A prototype that knows<br>when the fire is fading.</h2>
             <p class="project-intro">A hardware prototyping project using Arduino and sensors to create a mockup for a product that can sense when a campfire is losing its flame and when more firewood is needed.</p>
-            <div class="project-grid compact">
-              <div><span class="field-label">Tools</span><p>Arduino · Sensors · Physical prototyping</p></div>
-              <div><span class="field-label">Focus</span><p>Sensing, feedback and outdoor context</p></div>
+            <div class="project-facts compact-facts">
+              <div><span>Tools</span><p>Arduino · Sensors · Physical prototyping</p></div>
+              <div><span>Focus</span><p>Sensing, feedback and outdoor context</p></div>
             </div>
           </div>
         </div>
       </article>
     </section>
 
-    <section id="approach" class="approach section-rule">
-      <div class="section-label">03 / Approach</div>
-      <div class="approach-content">
-        <h2>Start with the situation,<br>not the interface.</h2>
+    <section id="approach" class="approach snap-section">
+      <div class="section-top"><span>03 / Approach</span><span>Context first</span></div>
+      <div class="approach-layout">
+        <div>
+          <p class="eyebrow">How I think about interaction</p>
+          <h2>Start with the situation,<br>not the interface.</h2>
+        </div>
         <div class="approach-copy">
           <p>I am interested in design problems where context matters. A bridge is not just a structure. An infotainment system is not just a screen. A campfire product is not just a sensor.</p>
           <p>Across these projects, I work from the conditions around the interaction: accessibility, attention, physical behaviour and the consequences of getting the experience wrong.</p>
@@ -128,13 +127,10 @@
       </div>
     </section>
 
-    <section id="about" class="about section-rule">
-      <div class="section-label">04 / About</div>
-      <div class="about-content">
-        <div>
-          <p class="eyebrow">Elias Bergman</p>
-          <h2>UX designer with an interest in systems that meet people where they are.</h2>
-        </div>
+    <section id="about" class="about snap-section">
+      <div class="section-top"><span>04 / About</span><span>Elias Bergman</span></div>
+      <div class="about-layout">
+        <div><p class="eyebrow">UX / Interaction / Prototyping</p><h2>Designing systems that meet people where they are.</h2></div>
         <div class="about-copy">
           <p>My work so far spans inclusive design, automotive interaction and physical prototyping. I like projects where research, design and making have to work together rather than living in separate phases.</p>
           <p>This portfolio is intentionally simple. The projects should do the talking.</p>
@@ -142,16 +138,13 @@
       </div>
     </section>
 
-    <section id="contact" class="contact section-rule">
-      <div class="section-label">05 / Contact</div>
-      <div class="contact-content">
-        <div>
-          <p class="eyebrow">Get in touch</p>
-          <h2>Have a project, role<br>or problem worth exploring?</h2>
-        </div>
+    <section id="contact" class="contact snap-section">
+      <div class="section-top"><span>05 / Contact</span><span>Available for opportunities</span></div>
+      <div class="contact-layout">
+        <div><p class="eyebrow">Get in touch</p><h2>Have a project, role<br>or problem worth exploring?</h2></div>
         <div class="contact-details">
           <p class="contact-note">Add your preferred email and LinkedIn below before publishing.</p>
-          <div class="contact-placeholders">
+          <div class="contact-links">
             <a href="mailto:YOUR-EMAIL@example.com">YOUR-EMAIL@example.com</a>
             <a href="#">LinkedIn profile ↗</a>
           </div>
@@ -160,12 +153,37 @@
     </section>
   </main>
 
-  <footer class="site-footer">
-    <span>© 2026 Elias Bergman</span>
-    <span>Designed for clarity.</span>
-  </footer>
+  <footer class="site-footer"><span>© 2026 Elias Bergman</span><span>Designed for clarity.</span></footer>
 
   <script>
+    const sections = [...document.querySelectorAll('.snap-section')];
+    let currentIndex = 0;
+    let wheelLock = false;
+
+    const observer = new IntersectionObserver((entries) => {
+      const visible = entries
+        .filter(entry => entry.isIntersecting)
+        .sort((a, b) => b.intersectionRatio - a.intersectionRatio)[0];
+      if (!visible) return;
+      const index = sections.indexOf(visible.target);
+      if (index >= 0) currentIndex = index;
+      sections.forEach((section, i) => section.classList.toggle('is-active', i === currentIndex));
+    }, { threshold: [0.55, 0.75] });
+
+    sections.forEach(section => observer.observe(section));
+
+    window.addEventListener('wheel', (event) => {
+      if (window.innerWidth < 900 || wheelLock || Math.abs(event.deltaY) < 12) return;
+      const direction = event.deltaY > 0 ? 1 : -1;
+      const next = Math.max(0, Math.min(sections.length - 1, currentIndex + direction));
+      if (next === currentIndex) return;
+      event.preventDefault();
+      wheelLock = true;
+      currentIndex = next;
+      sections[next].scrollIntoView({ behavior: 'smooth', block: 'start' });
+      setTimeout(() => { wheelLock = false; }, 700);
+    }, { passive: false });
+
     document.querySelectorAll('a[href^="#"]').forEach(link => {
       link.addEventListener('click', event => {
         const target = document.querySelector(link.getAttribute('href'));
